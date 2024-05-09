@@ -5,6 +5,22 @@ body {
     flex-direction: column;
 }
 
+h5 {
+    margin: 0px 0px 10px 0px;
+    font-size: 18px;
+}
+
+p {
+    color: #848484;
+    font-size: 16px;
+}
+
+select {
+    border: 1px solid #FBC530;
+    border-radius: 7px;
+    padding: 5px;
+}
+
 .calculator {
     display: flex;
     flex: 1;
@@ -13,6 +29,24 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #2E3640;
     border-radius: 7px;
+}
+
+.calculator-2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 25px;
+    border-radius: 7px;
+    justify-content: space-between;
+}
+.calculator-2 > div {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 15px;
+}
+.calculator-2 > div:last-child {
+    margin-right: 0px;
 }
 
 .display {
@@ -54,4 +88,62 @@ button:hover {
 .double {
     grid-column: span 2;
 }
-  
+
+.total {
+    text-align: center;
+    color: #FBC530;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    padding: 15px 5px;
+    font-size: 32px;
+    width: 100%;
+}
+
+.totalValueYear {
+    color: rgba(251, 197, 48, 0.5);
+}
+
+.total-text {
+    font-size: 32px;
+    color: #FBC530;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.two-result {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start;
+}
+.two-result > div {
+    display: flex !important;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+    justify-content: center;
+    margin-right: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    font-size: 12px;
+}
+.two-result > div:last-child {
+    margin-right: 0px;
+}
+
+.description {
+    font-size: 12px;
+    margin: 0px;
+}
+
+/*Chrome*/
+.slider {
+    background: linear-gradient(to right, #FBC530 0%, #FBC530 50%, #dedede 50%, #dedede 100%);
+    border: solid 0px #dedede;
+    border-radius: 8px;
+    height: 2px;
+    width: 100%;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+    accent-color: #FBC530;
+}
