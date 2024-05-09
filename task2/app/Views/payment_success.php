@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url().'css/style.css'; ?>" />
     <script type="text/javascript">
         function newPayment() {
-            document.location.href = "/payments";
+            document.location.href = "<?php echo base_url().'payments'; ?>";
         }
     </script>
 </head>
