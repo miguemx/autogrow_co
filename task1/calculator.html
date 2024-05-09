@@ -42,9 +42,47 @@
             
         </div>
     </div>
-    <svg width="100%" height="200" viewBox="0 0 303 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="100%" height="50" viewBox="0 0 303 420" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M33.3154 0L147.631 66V198L33.3154 264L-81 198V66L33.3154 0ZM153.315 214L242.516 265.5V368.5L153.315 420L64.1147 368.5V265.5L153.315 214ZM302.597 114L233.315 74L164.033 114V194L233.315 234L302.597 194V114Z" fill="#F2BD2A"/>
     </svg>
+    <div class="calculator-2">
+        <div>
+            <h5>Your industry</h5>
+            <p>Choose your industry, or pick Average if you can't find it.</p>
+            <select></select>
+        </div>
+        <div>
+            <h5>Average Deal Size, $</h5>
+            <p>Choose the average size of your deals.</p>
+            <input type="range" min="0" max="100" value="50" class="slider" id="slider2">
+        </div>
+        <div>
+            <h5>B2B lead generation that sees your business through</h5>
+            <div class="total"><span id="totalValue">150</span> <span class="totalValueYear">/ Year</span></div>
+        </div>
+    </div>
+    <div class="calculator-2">
+        <div>
+            <h5>Number of B2B prospects</h5>
+            <p>Choose the number of prospects you want to engage each month.</p>
+            <input type="range" min="0" max="100" value="50" class="slider" id="slider1">
+        </div>
+        <div>
+            <h5>Close Ratio (after appointment) %</h5>
+            <p>To calculate this number, divide the number of sales you made by the number of quotes you sent out.</p>
+            <input type="range" min="0" max="100" value="50" class="slider" id="slider3">
+        </div>
+        <div class="two-result">
+            <div>
+                <p id="appointment" class="total-text"></p>
+                <p class="description">Approx. number of appointment booked / monthly</p>
+            </div>
+            <div>
+                <p id="return" class="total-text"></p>
+                <p class="description">Return on marketing investment</p>
+            </div>
+        </div>
+    </div>
         
     <script src="calculator.js"></script>
 </body>
