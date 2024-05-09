@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Payment Success</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'css/style.css'; ?>" />
     <script type="text/javascript">
         function newPayment() {
             document.location.href = "/payments";

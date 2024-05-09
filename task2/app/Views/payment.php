@@ -3,7 +3,7 @@
 <head>
     <title>Payment Form</title>
     <script src="https://js.stripe.com/v3/"></script>
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url().'css/style.css'; ?>" />
 </head>
 <body>
 <h2>Checkout</h2>
