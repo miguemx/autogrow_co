@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+body {
+    display: flex;
+    font-family: 'proxima-nova', sans-serif;
+    flex-direction: column;
+}
+
+h1 {
+    color: #000;
+    font-weight: bold;
+    font-size: 54px;
+    text-align: center;
+}
+
+h2 {
+    color: #FBC530;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.error {
+    border: 1px solid #ff5454;
+    background-color: #feabab;
+    color: #aa3232;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.succes-payment-message {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#card-element {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #efefef;
+    border-radius: 7px;
+}
+.small-alert {
+    color: #800;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-size: 19px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn-yellow {
+    background-color: #FBC530;
+    color: #000;
+}
+
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th {
+    border-top: 1px solid #F2BD2A;
+}
+
+th, td {
+    text-align: left;
+    border-bottom: 1px solid #F2BD2A;
+    border-left: 1px solid #F2BD2A;
+    padding: 10px;
+}
+
+th:last-child, td:last-child {
+    border-right: 1px solid #F2BD2A;
+}

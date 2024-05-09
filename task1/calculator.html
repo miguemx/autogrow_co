@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator - Task 1</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+    
+        <input type="text" id="display" class="display" value="0" disabled>
+        
+        <div class="buttons">
+            <div>
+                <button class="double" onclick="clearDisplay()">C</button>
+                <button class="double" onclick="calculate()">=</button>
+            </div>
+            <div>
+                <button onclick="appendToDisplay('7')">7</button>
+                <button onclick="appendToDisplay('8')">8</button>
+                <button onclick="appendToDisplay('9')">9</button>
+                <button onclick="appendToDisplay('/')">/</button>
+            </div>
+            <div>
+                <button onclick="appendToDisplay('4')">4</button>
+                <button onclick="appendToDisplay('5')">5</button>
+                <button onclick="appendToDisplay('6')">6</button>
+                <button onclick="appendToDisplay('*')">*</button>
+            </div>
+            <div>
+                <button onclick="appendToDisplay('1')">1</button>
+                <button onclick="appendToDisplay('2')">2</button>
+                <button onclick="appendToDisplay('3')">3</button>
+                <button onclick="appendToDisplay('-')">-</button>
+            </div>
+            <div>
+                <button class="double" onclick="appendToDisplay('0')">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="appendToDisplay('+')">+</button>
+            </div>
+            
+        </div>
+    </div>
+    <svg width="100%" height="200" viewBox="0 0 303 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M33.3154 0L147.631 66V198L33.3154 264L-81 198V66L33.3154 0ZM153.315 214L242.516 265.5V368.5L153.315 420L64.1147 368.5V265.5L153.315 214ZM302.597 114L233.315 74L164.033 114V194L233.315 234L302.597 194V114Z" fill="#F2BD2A"/>
+    </svg>
+        
+    <script src="calculator.js"></script>
+</body>
+</html>

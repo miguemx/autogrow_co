@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+body {
+    display: flex;
+    font-family: 'proxima-nova', sans-serif;
+    flex-direction: column;
+}
+
+.calculator {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #2E3640;
+    border-radius: 7px;
+}
+
+.display {
+    display: flex;
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 5px;
+    flex: 1;
+    
+}
+
+.buttons > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #FBC530;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.double {
+    grid-column: span 2;
+}
+  
